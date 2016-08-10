@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let notifsettings:UIUserNotificationSettings = UIUserNotificationSettings(forTypes:[.Alert,.Badge,.Sound] , categories: nil)
+        
+        UIApplication.sharedApplication().registerUserNotificationSettings(notifsettings)
+        
         return true
     }
 

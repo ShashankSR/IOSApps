@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F35F4C5F7166DE40942FD94 /* Pods_ShashankSR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCFFAAC111F9F973E1AFDFA /* Pods_ShashankSR.framework */; };
+		3398A2CFF1B6576D03B73FD1 /* Pods_ShashankSRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9A4D93F8003CFA29E1FA2B /* Pods_ShashankSRTests.framework */; };
 		983BB2F61D58C7D10014849D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983BB2F51D58C7D10014849D /* AppDelegate.swift */; };
-		983BB2F81D58C7D10014849D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983BB2F71D58C7D10014849D /* ViewController.swift */; };
 		983BB2FB1D58C7D10014849D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983BB2F91D58C7D10014849D /* Main.storyboard */; };
 		983BB2FD1D58C7D10014849D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983BB2FC1D58C7D10014849D /* Assets.xcassets */; };
 		983BB3001D58C7D10014849D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983BB2FE1D58C7D10014849D /* LaunchScreen.storyboard */; };
 		983BB30B1D58C7D10014849D /* ShashankSRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983BB30A1D58C7D10014849D /* ShashankSRTests.swift */; };
 		983BB3161D58C7D10014849D /* ShashankSRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983BB3151D58C7D10014849D /* ShashankSRUITests.swift */; };
+		9855482E1D59AD1500A3BD9F /* Assign1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855482D1D59AD1500A3BD9F /* Assign1ViewController.swift */; };
+		985548301D59AD2900A3BD9F /* Assign2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855482F1D59AD2900A3BD9F /* Assign2ViewController.swift */; };
+		98BF89421D58D15600D782F8 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF89411D58D15600D782F8 /* MasterTableViewController.swift */; };
+		A66DDC50B2ED286CB2E5BC50 /* Pods_ShashankSRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB4970F1F946272BCD7A098 /* Pods_ShashankSRUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19E509A1AC0183F9C60948C6 /* Pods-ShashankSRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSRTests/Pods-ShashankSRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C28BCDFD697C21381ED3178 /* Pods-ShashankSRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSRUITests/Pods-ShashankSRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F978C48C7CE5C8D7F14D8BF /* Pods-ShashankSRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSRTests/Pods-ShashankSRTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CCFFAAC111F9F973E1AFDFA /* Pods_ShashankSR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShashankSR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7146649049485C079DFF7A /* Pods-ShashankSR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSR.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSR/Pods-ShashankSR.release.xcconfig"; sourceTree = "<group>"; };
 		983BB2F21D58C7D10014849D /* ShashankSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShashankSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983BB2F51D58C7D10014849D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		983BB2F71D58C7D10014849D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		983BB2FA1D58C7D10014849D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		983BB2FC1D58C7D10014849D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983BB2FF1D58C7D10014849D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		983BB3111D58C7D10014849D /* ShashankSRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShashankSRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		983BB3151D58C7D10014849D /* ShashankSRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShashankSRUITests.swift; sourceTree = "<group>"; };
 		983BB3171D58C7D10014849D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9855482D1D59AD1500A3BD9F /* Assign1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assign1ViewController.swift; sourceTree = "<group>"; };
+		9855482F1D59AD2900A3BD9F /* Assign2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assign2ViewController.swift; sourceTree = "<group>"; };
+		98BF89411D58D15600D782F8 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		AF9A4D93F8003CFA29E1FA2B /* Pods_ShashankSRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShashankSRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2E0E25F1555BFE5D5D363B /* Pods-ShashankSRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSRUITests/Pods-ShashankSRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE3EC211C5C572E3DBD6CB40 /* Pods-ShashankSR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSR/Pods-ShashankSR.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB4970F1F946272BCD7A098 /* Pods_ShashankSRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShashankSRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F35F4C5F7166DE40942FD94 /* Pods_ShashankSR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3398A2CFF1B6576D03B73FD1 /* Pods_ShashankSRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66DDC50B2ED286CB2E5BC50 /* Pods_ShashankSRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39DC3F602ABCE3725458A52D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3EC211C5C572E3DBD6CB40 /* Pods-ShashankSR.debug.xcconfig */,
+				5B7146649049485C079DFF7A /* Pods-ShashankSR.release.xcconfig */,
+				19E509A1AC0183F9C60948C6 /* Pods-ShashankSRTests.debug.xcconfig */,
+				1F978C48C7CE5C8D7F14D8BF /* Pods-ShashankSRTests.release.xcconfig */,
+				BB2E0E25F1555BFE5D5D363B /* Pods-ShashankSRUITests.debug.xcconfig */,
+				1C28BCDFD697C21381ED3178 /* Pods-ShashankSRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BCBCFB2C3C9EB6FEDDDC152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CCFFAAC111F9F973E1AFDFA /* Pods_ShashankSR.framework */,
+				AF9A4D93F8003CFA29E1FA2B /* Pods_ShashankSRTests.framework */,
+				DEB4970F1F946272BCD7A098 /* Pods_ShashankSRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		983BB2E91D58C7D10014849D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				983BB3091D58C7D10014849D /* ShashankSRTests */,
 				983BB3141D58C7D10014849D /* ShashankSRUITests */,
 				983BB2F31D58C7D10014849D /* Products */,
+				39DC3F602ABCE3725458A52D /* Pods */,
+				4BCBCFB2C3C9EB6FEDDDC152 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +141,11 @@
 		983BB2F41D58C7D10014849D /* ShashankSR */ = {
 			isa = PBXGroup;
 			children = (
+				9855482D1D59AD1500A3BD9F /* Assign1ViewController.swift */,
+				9855482F1D59AD2900A3BD9F /* Assign2ViewController.swift */,
 				983BB2F51D58C7D10014849D /* AppDelegate.swift */,
-				983BB2F71D58C7D10014849D /* ViewController.swift */,
 				983BB2F91D58C7D10014849D /* Main.storyboard */,
+				98BF89411D58D15600D782F8 /* MasterTableViewController.swift */,
 				983BB2FC1D58C7D10014849D /* Assets.xcassets */,
 				983BB2FE1D58C7D10014849D /* LaunchScreen.storyboard */,
 				983BB3011D58C7D10014849D /* Info.plist */,
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983BB31A1D58C7D10014849D /* Build configuration list for PBXNativeTarget "ShashankSR" */;
 			buildPhases = (
+				5B6EB39E0542A0150237C0C9 /* [CP] Check Pods Manifest.lock */,
 				983BB2EE1D58C7D10014849D /* Sources */,
 				983BB2EF1D58C7D10014849D /* Frameworks */,
 				983BB2F01D58C7D10014849D /* Resources */,
+				A7828266C348D6BE5B28A81E /* [CP] Embed Pods Frameworks */,
+				46A2C7476DF94B0F2E747EF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983BB31D1D58C7D10014849D /* Build configuration list for PBXNativeTarget "ShashankSRTests" */;
 			buildPhases = (
+				6E25A9A8358424C41BDEACA8 /* [CP] Check Pods Manifest.lock */,
 				983BB3021D58C7D10014849D /* Sources */,
 				983BB3031D58C7D10014849D /* Frameworks */,
 				983BB3041D58C7D10014849D /* Resources */,
+				5DFB1914B2B9332DF0CCD82F /* [CP] Embed Pods Frameworks */,
+				02D9EBFAC6C47CCA7E8F5F76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 983BB3201D58C7D10014849D /* Build configuration list for PBXNativeTarget "ShashankSRUITests" */;
 			buildPhases = (
+				3F8C88D740219A0BE3024E9C /* [CP] Check Pods Manifest.lock */,
 				983BB30D1D58C7D10014849D /* Sources */,
 				983BB30E1D58C7D10014849D /* Frameworks */,
 				983BB30F1D58C7D10014849D /* Resources */,
+				217158F8687AE4C91AAC412D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +305,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D9EBFAC6C47CCA7E8F5F76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashankSRTests/Pods-ShashankSRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		217158F8687AE4C91AAC412D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashankSRUITests/Pods-ShashankSRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8C88D740219A0BE3024E9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46A2C7476DF94B0F2E747EF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashankSR/Pods-ShashankSR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6EB39E0542A0150237C0C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DFB1914B2B9332DF0CCD82F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashankSRTests/Pods-ShashankSRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E25A9A8358424C41BDEACA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7828266C348D6BE5B28A81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashankSR/Pods-ShashankSR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		983BB2EE1D58C7D10014849D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983BB2F81D58C7D10014849D /* ViewController.swift in Sources */,
+				985548301D59AD2900A3BD9F /* Assign2ViewController.swift in Sources */,
+				98BF89421D58D15600D782F8 /* MasterTableViewController.swift in Sources */,
 				983BB2F61D58C7D10014849D /* AppDelegate.swift in Sources */,
+				9855482E1D59AD1500A3BD9F /* Assign1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +578,7 @@
 		};
 		983BB31B1D58C7D10014849D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3EC211C5C572E3DBD6CB40 /* Pods-ShashankSR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShashankSR/Info.plist;
@@ -410,6 +590,7 @@
 		};
 		983BB31C1D58C7D10014849D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7146649049485C079DFF7A /* Pods-ShashankSR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShashankSR/Info.plist;
@@ -421,6 +602,7 @@
 		};
 		983BB31E1D58C7D10014849D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E509A1AC0183F9C60948C6 /* Pods-ShashankSRTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ShashankSRTests/Info.plist;
@@ -433,6 +615,7 @@
 		};
 		983BB31F1D58C7D10014849D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F978C48C7CE5C8D7F14D8BF /* Pods-ShashankSRTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ShashankSRTests/Info.plist;
@@ -445,6 +628,7 @@
 		};
 		983BB3211D58C7D10014849D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2E0E25F1555BFE5D5D363B /* Pods-ShashankSRUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ShashankSRUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +640,7 @@
 		};
 		983BB3221D58C7D10014849D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C28BCDFD697C21381ED3178 /* Pods-ShashankSRUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ShashankSRUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +669,7 @@
 				983BB31C1D58C7D10014849D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983BB31D1D58C7D10014849D /* Build configuration list for PBXNativeTarget "ShashankSRTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +678,7 @@
 				983BB31F1D58C7D10014849D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983BB3201D58C7D10014849D /* Build configuration list for PBXNativeTarget "ShashankSRUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +687,7 @@
 				983BB3221D58C7D10014849D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
