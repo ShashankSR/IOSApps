@@ -60,8 +60,8 @@ class MasterTableViewController: UITableViewController {
             // rows in section 0
             switch (indexPath.row) {
             // row 0 in section 0
-            case 0: identifier = "Assign1_VC"; break;
-            case 1: identifier = "Assign2_VC"; break;
+            case 0: identifier = "Assign2_VC"; break;
+            case 1: identifier = "Assign1_VC"; break;
             default: break;
             }
             break;
