@@ -1,0 +1,6 @@
+framework module Pods_ShashankSRUITests {
+  umbrella header "Pods-ShashankSRUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

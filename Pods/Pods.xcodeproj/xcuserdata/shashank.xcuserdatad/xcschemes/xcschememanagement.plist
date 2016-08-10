@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PhoneNumberKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ShashankSR.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ShashankSRTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ShashankSRUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>14E7544FFDE44BE716129A738EFD966D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49B68527E5CEC21E76AAAC1B80D28840</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7334D5AB52649BF821BA54A83D161456</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1BC5C1C26245AC9B574D51C477F6ABE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
