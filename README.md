@@ -2,9 +2,10 @@
 SampleIOS Apps
 
 A single IOS app containing all JediSchool assignments
- * Assign1 = Phonenumber Validator
- * Assign2 = Image dowloader
+
+ * Assign1 = Image dowloader
+ * Assign2 = Phonenumber Validator
  * Assign3 = Progress bar ( UI update )
  * Assign4 = Local notifications
 
-Note :- Assign2,3,4 are clubbed into Assign2
+Note :- Assign1,3,4 are clubbed into Assign1
