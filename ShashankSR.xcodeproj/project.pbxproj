@@ -17,6 +17,7 @@
 		983BB3161D58C7D10014849D /* ShashankSRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983BB3151D58C7D10014849D /* ShashankSRUITests.swift */; };
 		9855482E1D59AD1500A3BD9F /* Assign1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855482D1D59AD1500A3BD9F /* Assign1ViewController.swift */; };
 		985548301D59AD2900A3BD9F /* Assign2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9855482F1D59AD2900A3BD9F /* Assign2ViewController.swift */; };
+		98A784661D5AF4E800BE449A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A784651D5AF4E800BE449A /* Default-568h@2x.png */; };
 		98BF89421D58D15600D782F8 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF89411D58D15600D782F8 /* MasterTableViewController.swift */; };
 		A66DDC50B2ED286CB2E5BC50 /* Pods_ShashankSRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB4970F1F946272BCD7A098 /* Pods_ShashankSRUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		983BB3171D58C7D10014849D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9855482D1D59AD1500A3BD9F /* Assign1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assign1ViewController.swift; sourceTree = "<group>"; };
 		9855482F1D59AD2900A3BD9F /* Assign2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assign2ViewController.swift; sourceTree = "<group>"; };
+		98A784651D5AF4E800BE449A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		98BF89411D58D15600D782F8 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		AF9A4D93F8003CFA29E1FA2B /* Pods_ShashankSRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShashankSRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2E0E25F1555BFE5D5D363B /* Pods-ShashankSRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashankSRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShashankSRUITests/Pods-ShashankSRUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		983BB2E91D58C7D10014849D = {
 			isa = PBXGroup;
 			children = (
+				98A784651D5AF4E800BE449A /* Default-568h@2x.png */,
 				983BB2F41D58C7D10014849D /* ShashankSR */,
 				983BB3091D58C7D10014849D /* ShashankSRTests */,
 				983BB3141D58C7D10014849D /* ShashankSRUITests */,
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983BB3001D58C7D10014849D /* LaunchScreen.storyboard in Resources */,
+				98A784661D5AF4E800BE449A /* Default-568h@2x.png in Resources */,
 				983BB2FD1D58C7D10014849D /* Assets.xcassets in Resources */,
 				983BB2FB1D58C7D10014849D /* Main.storyboard in Resources */,
 			);

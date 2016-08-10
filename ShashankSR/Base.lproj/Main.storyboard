@@ -149,18 +149,42 @@
                                     <constraint firstAttribute="width" constant="240" id="DJ0-se-UkT"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Diz-Hd-OML">
+                                <rect key="frame" x="240" y="248" width="75" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="9pH-dr-UFy"/>
+                                    <constraint firstAttribute="height" constant="28" id="VVW-dL-Rv1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VO6-Ll-tVj">
+                                <rect key="frame" x="318" y="248" width="25" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="fmY-3P-CWj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nSY-dm-e76" firstAttribute="trailing" secondItem="8vM-HZ-Z1n" secondAttribute="trailingMargin" id="4ZI-uV-NZU"/>
                             <constraint firstItem="hnz-PR-4gS" firstAttribute="centerX" secondItem="alj-kO-aKW" secondAttribute="centerX" id="734-lN-kDa"/>
+                            <constraint firstItem="VO6-Ll-tVj" firstAttribute="top" secondItem="Diz-Hd-OML" secondAttribute="top" id="7tX-hq-NQx"/>
                             <constraint firstItem="alj-kO-aKW" firstAttribute="centerY" secondItem="8vM-HZ-Z1n" secondAttribute="centerY" id="8N3-Sf-rYd"/>
                             <constraint firstItem="hnz-PR-4gS" firstAttribute="centerY" secondItem="alj-kO-aKW" secondAttribute="centerY" id="AVp-Oe-CKe"/>
                             <constraint firstItem="BCL-zV-333" firstAttribute="top" secondItem="hnz-PR-4gS" secondAttribute="bottom" constant="192" id="FtW-XB-ca4"/>
                             <constraint firstItem="Q2Q-C1-4ip" firstAttribute="top" secondItem="hxV-oQ-t91" secondAttribute="bottom" constant="18" id="IND-rS-UCm"/>
                             <constraint firstItem="nSY-dm-e76" firstAttribute="leading" secondItem="Q2Q-C1-4ip" secondAttribute="trailing" id="OfK-GX-Wxe"/>
+                            <constraint firstItem="VO6-Ll-tVj" firstAttribute="leading" secondItem="Diz-Hd-OML" secondAttribute="trailing" constant="3" id="aQI-7Y-Sj9"/>
                             <constraint firstItem="Q2Q-C1-4ip" firstAttribute="bottom" secondItem="nSY-dm-e76" secondAttribute="bottom" id="fFh-dE-3AH"/>
+                            <constraint firstItem="alj-kO-aKW" firstAttribute="top" secondItem="VO6-Ll-tVj" secondAttribute="bottom" constant="30" id="hE2-Yc-SPS"/>
                             <constraint firstItem="alj-kO-aKW" firstAttribute="centerX" secondItem="Q2Q-C1-4ip" secondAttribute="centerX" id="ixd-ft-zUZ"/>
+                            <constraint firstItem="Diz-Hd-OML" firstAttribute="centerX" secondItem="alj-kO-aKW" secondAttribute="centerX" id="l0L-r1-c6K"/>
+                            <constraint firstItem="alj-kO-aKW" firstAttribute="top" secondItem="Diz-Hd-OML" secondAttribute="bottom" constant="23" id="mYY-99-fmf"/>
                             <constraint firstItem="Q2Q-C1-4ip" firstAttribute="top" secondItem="nSY-dm-e76" secondAttribute="top" id="r3W-jQ-jtL"/>
                             <constraint firstItem="Q2Q-C1-4ip" firstAttribute="leading" secondItem="8vM-HZ-Z1n" secondAttribute="leadingMargin" id="zGt-sQ-dPg"/>
                         </constraints>
@@ -169,13 +193,15 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="hnz-PR-4gS" id="nhj-AZ-fg9"/>
+                        <outlet property="label" destination="VO6-Ll-tVj" id="Cup-YJ-1gW"/>
+                        <outlet property="proglabel" destination="Diz-Hd-OML" id="88Y-ie-QZq"/>
                         <outlet property="progressBar" destination="alj-kO-aKW" id="Xzd-qN-nol"/>
                         <outlet property="searchBar" destination="Q2Q-C1-4ip" id="c2S-Qs-nJd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ueh-4a-uPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="834" y="828"/>
+            <point key="canvasLocation" x="834" y="826"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Th8-z4-68Y">
