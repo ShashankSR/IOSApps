@@ -1,6 +1,7 @@
 # IOSApps
 SampleIOS Apps
 
+Please run pod install before building the app.
 A single IOS app containing all JediSchool assignments
 
  * Assign1 = Image dowloader
